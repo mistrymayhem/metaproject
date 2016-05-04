@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('fonts/Montserrat-Bold.ttf');
+    font-style: normal;
+    font-weight: normal;
+    }
+        
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Roboto-Thin-Italic';
+    src: url('fonts/Roboto-ThinItalic.ttf');
+    font-style: italic;
+    font-weight: thin;
+}
+
+* { 
+    box-sizing: border-box; 
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+body { 
+    font-family: sans-serif; }
+
+/* ---- grid ---- */
+
+.grid {
+  max-width: 1024px;
+  max-height: 768px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 684px;
+  height: 385px;
+  float: left;
+
+}
+
+.grid-item video{
+    width: 684px;
+    height:385px;
+}
+.grid-item--sketch { 
+    width: 340px;
+    height: 195px;
+}
+.grid-item--student {
+    width: 340px; 
+    height:376px;
+}
+
+.grid-item--title {
+    width: 342px; 
+    height:259px;
+    margin-top:-184px;
+}
+
+
+.grid-item--tall-image { 
+    height: 384px;
+    width: 342px;
+    margin-top:-186px;
+}
+.grid-item--small-image { 
+    height:198px; 
+    width:340px;
+    float:right;
+}
+.grid-item--button { 
+    height: 114px; 
+    width:342px;
+    margin-top:-114px;
+    background-color: #f15d62;
+    text-align:center;
+    color:#FFFFFF;
+    padding-top:45px;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 8pt;
+}
+
+.view-timeline{
+    padding-bottom:10px;
+}
+
+.timeline-title{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    font-size: 30pt;
+    color: #f15d62;
+    letter-spacing: 2px;
+    margin: 50px 0px 27px 42px;
+}
+
+.horizontal-rule{
+    width: 52px;
+    height: 6px;
+    background-color:#d1d3d4;
+    margin: 0px 0px 0px 42px;
+}
+
+.timeline-subhead{
+    font-family: 'Roboto-Thin-Italic', sans-serif;
+    font-size: 12pt;
+    color: #a3a2a2;
+    margin:18px 0px 36px 42px;
+    line-height: 24px;
+}
